@@ -1,5 +1,5 @@
 'use server';
-import { error } from 'console';
+// import { error } from 'console';
 import mongoose from 'mongoose';
 let isConnected: boolean = false;
 export const connectToMongodb = async () => {
