@@ -1,10 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '~bootstrap-icons/font/bootstrap-icons.css';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+@layer base {
+  * {
+    @apply text-gray-500;
+  }
+  body {
+    @apply bg-slate-50;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,9 +22,9 @@
     --foreground: #ededed;
   }
 }
-
+/* 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
