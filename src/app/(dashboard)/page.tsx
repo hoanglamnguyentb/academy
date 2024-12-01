@@ -2,7 +2,6 @@ import CourseItem from '@/components/course/CourseItem';
 import Header from '@/components/Header';
 import createUser from '@/lib/actions/user.actions';
 import { CreateVM } from '@/types/user';
-
 import React from 'react';
 
 const page = () => {
