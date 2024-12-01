@@ -1,10 +1,7 @@
 import CourseItem from '@/components/course/CourseItem';
 import Header from '@/components/Header';
 import createUser from '@/lib/actions/user.actions';
-import User, { IUser } from '@/models/user.model';
-import { ERole, EUserStatus } from '@/types/enums';
 import { CreateVM } from '@/types/user';
-import mongoose from 'mongoose';
 
 import React from 'react';
 
