@@ -20,6 +20,7 @@ export async function POST(req: Request) {
       'svix-signature': svix_signature,
     });
   } catch (err) {
+    console.log(err);
     return new Response('Bad Request', { status: 400 });
   }
 
